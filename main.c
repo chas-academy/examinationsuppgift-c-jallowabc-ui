@@ -3,14 +3,14 @@
 #include <ctype.h>
 
 #define Num_students 5
-#define Num_tests 13
+#define NUM_TESTS 13
 
 int main () {
   char names [NUM_STUDENTS] [11];
-  int scores [Num_students] [Num_tests];
+  int scores [NUM_STUDENTS] [NUM_TESTS];
 
 // Read input
-for (int i = 0; i <Num_students; i++) {
+for (int i = 0; i <NUM_STUDENTS; i++) {
     scanf("10%s",names[i];
     for (int j = 0; j < NUM_TESTS; j++) {
             scanf("%d", &scores[i][j]);
