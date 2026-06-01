@@ -6,7 +6,7 @@
 #define Num_tests 13
 
 int main () {
-  char names [Num_students] [11];
+  char names [NUM_STUDENTS] [11];
   int scores [Num_students] [Num_tests];
 
 // Read input
